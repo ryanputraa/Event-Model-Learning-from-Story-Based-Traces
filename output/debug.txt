@@ -1,0 +1,28 @@
+--- Plan 1 ---
+FSM for object R_12_14, sort R_12_14_man_ARG0_all:
+  State_0 --[open]--> State_1
+  State_1 --[discover]--> State_2
+  State_2 --[place]--> State_3
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG0_all:
+  State_0 --[open]--> State_1
+  State_1 --[discover]--> State_2
+  State_2 --[place]--> State_3
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1_all:
+  State_0 --[open]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG2-in_all:
+  State_0 --[discover]--> State_1
+
+FSM for object S_15_3_7, sort S_15_3_7_crypt_ARG2-in_all:
+  State_0 --[place]--> State_1
+
+FSM for object S_2_5_6, sort S_2_5_6_ring_ARG1_all:
+  State_0 --[discover]--> State_1
+  State_1 --[place]--> State_2
+
+FSM for object S_2_5_6, sort S_2_5_6_ring_ARG2-in_all:
+  State_0 --[place]--> State_1
+
+

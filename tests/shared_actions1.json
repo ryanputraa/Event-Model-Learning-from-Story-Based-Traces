@@ -1,0 +1,17 @@
+[{
+    "objects": {
+      "obj1": ["Object 1 Text", []],
+      "obj2": ["Object 2 Text", []]
+    },
+    "facts": [],
+    "events": {
+      "1": [true, ["initialize", ["ARG0", "obj1"]]],
+      "2": [true, ["shared_action", ["ARG0", "obj1"], ["ARG0", "obj2"]]],
+      "3": [true, ["finalize", ["ARG0", "obj2"]]]
+    },
+    "prec": [
+      [1, 2],
+      [2, 3]
+    ]
+  }]
+  

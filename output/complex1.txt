@@ -1,0 +1,25 @@
+--- Plan 1 ---
+FSM for object obj1, sort obj1_Object 1 Text_ARG0_part1:
+  State_0 --[init]--> State_1
+  State_1 --[process_a]--> State_2
+  State_1 --[process_b]--> State_4
+  State_2 --[finalize]--> State_3
+  State_4 --[finalize]--> State_3
+
+FSM for object obj1, sort obj1_Object 1 Text_ARG0_part2:
+  State_0 --[action_x]--> State_1
+  State_0 --[action_y]--> State_2
+  State_0 --[start]--> State_4
+  State_1 --[action_y]--> State_2
+  State_2 --[complete]--> State_3
+  State_4 --[action_x]--> State_1
+
+FSM for object obj2, sort obj2_Object 2 Text_ARG0_all:
+  State_0 --[action_x]--> State_1
+  State_0 --[action_y]--> State_2
+  State_0 --[start]--> State_4
+  State_1 --[action_y]--> State_2
+  State_2 --[complete]--> State_3
+  State_4 --[action_x]--> State_1
+
+

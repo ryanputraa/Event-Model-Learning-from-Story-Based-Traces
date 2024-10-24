@@ -1,0 +1,31 @@
+[{
+    "objects": {
+      "obj1": ["Object 1 Text", []],
+      "obj2": ["Object 2 Text", []]
+    },
+    "facts": [
+      ["part_of", "obj1", "obj2"]
+    ],
+    "events": {
+      "1": [true, ["init", ["ARG0", "obj1"]]],
+      "2": [true, ["process_a", ["ARG0", "obj1"]]],
+      "3": [true, ["process_b", ["ARG0", "obj1"]]],
+      "4": [true, ["finalize", ["ARG0", "obj1"]]],
+      "5": [true, ["start", ["ARG0", "obj2"]]],
+      "6": [true, ["action_x", ["ARG0", "obj2"]]],
+      "7": [true, ["action_y", ["ARG0", "obj2"]]],
+      "8": [true, ["complete", ["ARG0", "obj2"]]]
+    },
+    "prec": [
+      [1, 2],
+      [1, 3],
+      [2, 4],
+      [3, 4],
+      [5, 6],
+      [6, 7],
+      [7, 8],
+      [2, 6],
+      [3, 7]
+    ]
+  }]
+  

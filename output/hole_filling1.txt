@@ -1,0 +1,11 @@
+--- Plan 1 ---
+FSM for object obj1, sort obj1_Object 1 Text_ARG0_part1:
+  State_0 --[start]--> State_1
+  State_1 --[action1]--> State_2
+  State_2 --[action2]--> State_3
+
+FSM for object obj1, sort obj1_Object 1 Text_ARG0_part2:
+  State_0 --[start]--> State_1
+  State_1 --[action3]--> State_2
+
+

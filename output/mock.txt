@@ -1,0 +1,21 @@
+--- Plan 1 ---
+FSM for object R_12_13_14, sort R_12_13_14_coffee_ARG1_all:
+  State_0 --[prepare]--> State_1
+
+FSM for object R_6_7_8, sort R_6_7_8_lights_ARG1_all:
+  State_0 --[turn_on]--> State_1
+
+FSM for object R_9_10_11, sort R_9_10_11_computer_ARG1_all:
+  State_0 --[start]--> State_1
+
+FSM for object S_0_1_2, sort S_0_1_2_Alice_ARG0_part1:
+  State_0 --[turn_on]--> State_1
+  State_1 --[start]--> State_2
+
+FSM for object S_0_1_2, sort S_0_1_2_Alice_ARG0_part2:
+  State_0 --[turn_on]--> State_1
+
+FSM for object S_3_4_5, sort S_3_4_5_Bob_ARG0_all:
+  State_0 --[prepare]--> State_1
+
+

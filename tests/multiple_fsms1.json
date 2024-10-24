@@ -1,0 +1,22 @@
+[
+  {
+      "objects": {
+          "obj1": ["Object 1 Text", []]
+      },
+      "facts": [],
+      "events": {
+          "1": [true, ["initialize", ["ARG0", "obj1"]]],
+          "2": [true, ["process_type_a", ["ARG0", "obj1"]]],
+          "3": [true, ["finalize_a", ["ARG0", "obj1"]]],
+          "4": [true, ["initialize", ["ARG0", "obj1"]]],
+          "5": [true, ["process_type_b", ["ARG0", "obj1"]]],
+          "6": [true, ["finalize_b", ["ARG0", "obj1"]]]
+      },
+      "prec": [
+          [1, 2],
+          [2, 3],
+          [4, 5],
+          [5, 6]
+      ]
+  }
+]

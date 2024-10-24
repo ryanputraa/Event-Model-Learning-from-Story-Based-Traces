@@ -1,0 +1,1298 @@
+--- Plan 1 ---
+FSM for object E101, sort unknown_sort_ARG1_all:
+  State_0 --[split_off]--> State_1
+
+FSM for object E102, sort unknown_sort_ARG1_all:
+  State_0 --[split_off]--> State_1
+
+FSM for object E103, sort unknown_sort_ARG1_all:
+  State_0 --[split_off]--> State_1
+
+FSM for object E114, sort unknown_sort_ARGM-PRP_all:
+  State_0 --[go]--> State_1
+
+FSM for object E115, sort unknown_sort_ARG1_all:
+  State_0 --[find]--> State_1
+
+FSM for object E129, sort unknown_sort_ARG1_all:
+  State_0 --[head]--> State_1
+
+FSM for object E133, sort unknown_sort_ARG0_all:
+  State_0 --[choke]--> State_1
+
+FSM for object E136, sort unknown_sort_ARG1_all:
+  State_0 --[admit]--> State_1
+
+FSM for object E138, sort unknown_sort_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object E139, sort unknown_sort_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object E139, sort unknown_sort_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object E140, sort unknown_sort_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object E141, sort unknown_sort_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object E144, sort unknown_sort_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object E147, sort unknown_sort_ARG1_all:
+  State_0 --[find]--> State_1
+
+FSM for object E156, sort unknown_sort_ARG0_all:
+  State_0 --[kill]--> State_1
+
+FSM for object E158, sort unknown_sort_ARG1_all:
+  State_0 --[have]--> State_1
+
+FSM for object E159, sort unknown_sort_ARG1_all:
+  State_0 --[have]--> State_1
+
+FSM for object E16, sort unknown_sort_ARG2_all:
+  State_0 --[switch]--> State_1
+
+FSM for object E160, sort unknown_sort_ARG1_all:
+  State_0 --[have]--> State_1
+
+FSM for object E161, sort unknown_sort_ARG1_all:
+  State_0 --[have]--> State_1
+
+FSM for object E170, sort unknown_sort_ARG1_all:
+  State_0 --[ask]--> State_1
+
+FSM for object E176, sort unknown_sort_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object E19, sort unknown_sort_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object E28, sort unknown_sort_ARG1_all:
+  State_0 --[realize]--> State_1
+
+FSM for object E29, sort unknown_sort_ARG1_all:
+  State_0 --[realize]--> State_1
+
+FSM for object E35, sort unknown_sort_ARG1_all:
+  State_0 --[tell]--> State_1
+
+FSM for object E37, sort unknown_sort_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object E38, sort unknown_sort_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object E41, sort unknown_sort_ARG1_all:
+  State_0 --[tell]--> State_1
+
+FSM for object E44, sort unknown_sort_ARG2_all:
+  State_0 --[equip]--> State_1
+
+FSM for object E57, sort unknown_sort_ARG2_all:
+  State_0 --[lean]--> State_1
+
+FSM for object E61, sort unknown_sort_ARG1_all:
+  State_0 --[see]--> State_1
+  State_1 --[see]--> State_1
+
+FSM for object E7, sort unknown_sort_ARG2_all:
+  State_0 --[remove]--> State_1
+  State_1 --[steal]--> State_2
+
+FSM for object E70, sort unknown_sort_ARG1_all:
+  State_0 --[realize]--> State_1
+
+FSM for object E97, sort unknown_sort_ARGM-PRP_all:
+  State_0 --[reach]--> State_1
+  State_1 --[reach]--> State_1
+
+FSM for object R_111_118, sort R_111_118_world_ARG1_all:
+  State_0 --[release]--> State_1
+
+FSM for object R_111_118, sort R_111_118_world_ARG2-for_all:
+  State_0 --[wait_for]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG0_part1:
+  State_0 --[notice]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG0_part2:
+  State_0 --[find]--> State_3
+  State_0 --[go]--> State_5
+  State_0 --[go_without]--> State_22
+  State_0 --[have]--> State_8
+  State_0 --[help_out]--> State_20
+  State_0 --[lock]--> State_2
+  State_0 --[open]--> State_14
+  State_0 --[put_to]--> State_16
+  State_0 --[rescue]--> State_9
+  State_0 --[run_out]--> State_1
+  State_0 --[tell]--> State_7
+  State_1 --[lock]--> State_2
+  State_2 --[find]--> State_3
+  State_2 --[have]--> State_8
+  State_2 --[reach]--> State_13
+  State_3 --[find]--> State_3
+  State_3 --[go]--> State_5
+  State_3 --[run_to]--> State_4
+  State_4 --[find]--> State_3
+  State_5 --[get]--> State_6
+  State_5 --[go]--> State_5
+  State_5 --[keep_to]--> State_23
+  State_6 --[tell]--> State_7
+  State_7 --[have]--> State_8
+  State_8 --[rescue]--> State_9
+  State_9 --[go_to]--> State_10
+  State_9 --[rescue]--> State_9
+  State_10 --[decide]--> State_11
+  State_10 --[rescue]--> State_9
+  State_11 --[travel]--> State_12
+  State_12 --[lock]--> State_2
+  State_13 --[open]--> State_14
+  State_14 --[see]--> State_15
+  State_15 --[put_to]--> State_16
+  State_16 --[begin]--> State_17
+  State_16 --[put_to]--> State_16
+  State_17 --[ask]--> State_18
+  State_18 --[throw]--> State_19
+  State_19 --[help_out]--> State_20
+  State_20 --[attempt]--> State_21
+  State_20 --[help_out]--> State_20
+  State_21 --[go_without]--> State_22
+  State_22 --[see]--> State_15
+  State_23 --[decide]--> State_11
+  State_23 --[go]--> State_5
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG0_part3:
+  State_0 --[could_say]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG0_part4:
+  State_0 --[go_into]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG1_part1:
+  State_0 --[wait_for]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG1_part2:
+  State_0 --[be]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG1_part3:
+  State_0 --[lock_in]--> State_1
+  State_1 --[become]--> State_2
+  State_1 --[lock_in]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARG2-to_all:
+  State_0 --[bring]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARGM-LOC-behind_all:
+  State_0 --[lock]--> State_1
+
+FSM for object R_124_128, sort R_124_128_girlfriend_ARGM-LOC_all:
+  State_0 --[come]--> State_1
+  State_1 --[kill]--> State_2
+
+FSM for object R_12_14, sort R_12_14_world_ARG0_all:
+  State_0 --[break_into]--> State_1
+  State_1 --[sneak]--> State_2
+  State_2 --[search]--> State_3
+  State_3 --[remove]--> State_4
+  State_4 --[steal]--> State_5
+  State_5 --[reach]--> State_6
+  State_6 --[watch]--> State_7
+
+FSM for object R_12_14, sort R_12_14_world_ARG1_part1:
+  State_0 --[trap]--> State_1
+
+FSM for object R_12_14, sort R_12_14_world_ARG1_part2:
+  State_0 --[cut_off]--> State_1
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG0_all:
+  State_0 --[break_into]--> State_6
+  State_0 --[crawl]--> State_17
+  State_0 --[dig_out]--> State_15
+  State_0 --[find_out]--> State_13
+  State_0 --[leave]--> State_19
+  State_0 --[marvel]--> State_10
+  State_0 --[meet]--> State_1
+  State_1 --[break_into]--> State_6
+  State_1 --[drive]--> State_2
+  State_1 --[go]--> State_3
+  State_1 --[leave]--> State_19
+  State_1 --[meet]--> State_1
+  State_2 --[cheer]--> State_4
+  State_2 --[meet]--> State_1
+  State_2 --[realize]--> State_5
+  State_4 --[drive]--> State_2
+  State_5 --[find_out]--> State_13
+  State_5 --[meet]--> State_1
+  State_6 --[open]--> State_7
+  State_7 --[take]--> State_8
+  State_8 --[find]--> State_9
+  State_9 --[marvel]--> State_10
+  State_10 --[begin]--> State_11
+  State_10 --[marvel]--> State_10
+  State_11 --[hear]--> State_12
+  State_12 --[realize]--> State_5
+  State_13 --[find_out]--> State_13
+  State_13 --[try]--> State_14
+  State_14 --[dig_out]--> State_15
+  State_15 --[decide]--> State_16
+  State_15 --[dig_out]--> State_15
+  State_16 --[decide]--> State_16
+  State_16 --[follow]--> State_18
+  State_17 --[crawl]--> State_17
+  State_17 --[decide]--> State_16
+  State_18 --[meet]--> State_1
+  State_19 --[decide]--> State_16
+  State_19 --[leave]--> State_19
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG1_part1:
+  State_0 --[equip]--> State_3
+  State_0 --[meet]--> State_1
+  State_0 --[turn_back]--> State_4
+  State_1 --[be]--> State_2
+  State_1 --[equip]--> State_3
+  State_1 --[meet]--> State_1
+  State_2 --[meet]--> State_1
+  State_3 --[turn_back]--> State_4
+  State_4 --[turn_back]--> State_4
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG1_part2:
+  State_0 --[cave_in]--> State_1
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG1_part3:
+  State_0 --[find]--> State_2
+  State_0 --[shock]--> State_1
+  State_1 --[find]--> State_2
+  State_2 --[find]--> State_2
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG1_part4:
+  State_0 --[lock]--> State_1
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG1_part5:
+  State_0 --[split_off]--> State_1
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG2_part1:
+  State_0 --[show]--> State_2
+  State_0 --[tell]--> State_1
+  State_1 --[show]--> State_2
+  State_2 --[tell]--> State_1
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG2_part2:
+  State_0 --[be]--> State_1
+
+FSM for object R_137_147, sort R_137_147_girlfriend_ARG4_all:
+  State_0 --[would_get]--> State_1
+
+FSM for object R_141_142, sort R_141_142_Dorian_ARG0_part1:
+  State_0 --[leave]--> State_1
+
+FSM for object R_141_142, sort R_141_142_Dorian_ARG0_part2:
+  State_0 --[reach]--> State_1
+  State_1 --[climb]--> State_2
+  State_1 --[reach]--> State_1
+
+FSM for object R_141_142, sort R_141_142_Dorian_ARG1_part1:
+  State_0 --[choke]--> State_1
+
+FSM for object R_141_142, sort R_141_142_Dorian_ARG1_part2:
+  State_0 --[fall_on]--> State_1
+
+FSM for object R_141_142, sort R_141_142_Dorian_ARG1_part3:
+  State_0 --[kill]--> State_1
+
+FSM for object R_141_142, sort R_141_142_Dorian_ARG1_part4:
+  State_0 --[make]--> State_1
+
+FSM for object R_143_144, sort R_143_144_Adriana_ARG0_part1:
+  State_0 --[crawl]--> State_1
+
+FSM for object R_143_144, sort R_143_144_Adriana_ARG0_part2:
+  State_0 --[make]--> State_1
+
+FSM for object R_143_144, sort R_143_144_Adriana_ARG1_part1:
+  State_0 --[panic]--> State_1
+  State_1 --[leave]--> State_2
+  State_1 --[panic]--> State_1
+  State_2 --[get]--> State_3
+  State_3 --[drag]--> State_4
+
+FSM for object R_143_144, sort R_143_144_Adriana_ARG1_part2:
+  State_0 --[trap]--> State_1
+
+FSM for object R_143_144, sort R_143_144_Adriana_ARG1_part3:
+  State_0 --[shoot]--> State_1
+
+FSM for object R_143_144, sort R_143_144_Adriana_ARG1_part4:
+  State_0 --[kill]--> State_1
+
+FSM for object R_146_147, sort R_146_147_Morgan_ARG0_part1:
+  State_0 --[climb]--> State_1
+  State_1 --[climb]--> State_1
+  State_1 --[decide]--> State_2
+
+FSM for object R_146_147, sort R_146_147_Morgan_ARG0_part2:
+  State_0 --[shock]--> State_1
+
+FSM for object R_146_147, sort R_146_147_Morgan_ARG1_part1:
+  State_0 --[kill]--> State_1
+
+FSM for object R_146_147, sort R_146_147_Morgan_ARG1_part2:
+  State_0 --[find]--> State_1
+
+FSM for object R_146_147, sort R_146_147_Morgan_ARG4-on_all:
+  State_0 --[fall_on]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1-into_all:
+  State_0 --[break_into]--> State_1
+  State_1 --[sneak]--> State_2
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1-through_all:
+  State_0 --[check_through]--> State_1
+  State_1 --[check_through]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1_part1:
+  State_0 --[close_off]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1_part2:
+  State_0 --[break_into]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1_part3:
+  State_0 --[notice]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG1_part4:
+  State_0 --[travel]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG2-from_all:
+  State_0 --[be]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG2_part1:
+  State_0 --[remove]--> State_1
+  State_1 --[steal]--> State_2
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG2_part2:
+  State_0 --[throw]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG2_part3:
+  State_0 --[be]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARG4_all:
+  State_0 --[go_to]--> State_1
+  State_1 --[go_to]--> State_1
+
+FSM for object R_16_21, sort R_16_21_crypt_ARGM-LOC_all:
+  State_0 --[hide]--> State_1
+  State_1 --[hide]--> State_1
+
+FSM for object R_219_223, sort R_219_223_thief_ARG0_part1:
+  State_0 --[admit]--> State_16
+  State_0 --[check_through]--> State_4
+  State_0 --[explain]--> State_2
+  State_0 --[find]--> State_17
+  State_0 --[get_out]--> State_21
+  State_0 --[give]--> State_19
+  State_0 --[head]--> State_15
+  State_0 --[hide]--> State_23
+  State_0 --[keep]--> State_22
+  State_0 --[see]--> State_10
+  State_0 --[see_to]--> State_7
+  State_0 --[split_off]--> State_13
+  State_0 --[tell]--> State_1
+  State_1 --[check_through]--> State_4
+  State_1 --[explain]--> State_2
+  State_2 --[find]--> State_17
+  State_2 --[show]--> State_3
+  State_3 --[tell]--> State_1
+  State_4 --[check_through]--> State_4
+  State_4 --[travel]--> State_5
+  State_5 --[begin]--> State_6
+  State_5 --[check_through]--> State_4
+  State_6 --[lean]--> State_8
+  State_6 --[see_to]--> State_7
+  State_7 --[begin]--> State_6
+  State_7 --[see_to]--> State_7
+  State_8 --[jump_in]--> State_9
+  State_9 --[see]--> State_10
+  State_10 --[claim]--> State_11
+  State_10 --[see]--> State_10
+  State_11 --[slip]--> State_12
+  State_13 --[locate]--> State_14
+  State_14 --[head]--> State_15
+  State_15 --[admit]--> State_16
+  State_16 --[explain]--> State_2
+  State_17 --[admit]--> State_16
+  State_17 --[bring]--> State_18
+  State_18 --[give]--> State_19
+  State_19 --[give]--> State_19
+  State_19 --[try]--> State_20
+  State_20 --[get_out]--> State_21
+  State_21 --[get_out]--> State_21
+  State_21 --[keep]--> State_22
+  State_23 --[find]--> State_17
+
+FSM for object R_219_223, sort R_219_223_thief_ARG0_part2:
+  State_0 --[steal]--> State_1
+
+FSM for object R_219_223, sort R_219_223_thief_ARG0_part3:
+  State_0 --[go]--> State_1
+  State_1 --[go]--> State_1
+  State_1 --[keep_to]--> State_2
+  State_2 --[decide]--> State_3
+  State_2 --[go]--> State_1
+
+FSM for object R_219_223, sort R_219_223_thief_ARG1_all:
+  State_0 --[be]--> State_2
+  State_0 --[kill]--> State_1
+  State_2 --[kill]--> State_1
+  State_2 --[not_attack]--> State_3
+  State_3 --[be]--> State_2
+
+FSM for object R_219_223, sort R_219_223_thief_ARG2_all:
+  State_0 --[tell]--> State_1
+
+FSM for object R_316_319, sort R_316_319_her backpack 's_ARG1_part1:
+  State_0 --[leave]--> State_1
+
+FSM for object R_316_319, sort R_316_319_her backpack 's_ARG1_part2:
+  State_0 --[take_out]--> State_1
+
+FSM for object R_33_35, sort R_33_35_coffin_ARG1_all:
+  State_0 --[close]--> State_1
+  State_1 --[close]--> State_1
+  State_1 --[slam]--> State_2
+
+FSM for object R_33_35, sort R_33_35_coffin_ARGM-LOC-through_all:
+  State_0 --[search]--> State_1
+
+FSM for object R_370_372, sort R_370_372_necklace_ARG1_part1:
+  State_0 --[steal]--> State_1
+
+FSM for object R_370_372, sort R_370_372_necklace_ARG1_part2:
+  State_0 --[bring]--> State_1
+  State_0 --[get_out]--> State_3
+  State_0 --[give]--> State_2
+  State_0 --[keep]--> State_4
+  State_1 --[give]--> State_2
+  State_2 --[get_out]--> State_3
+  State_2 --[give]--> State_2
+  State_3 --[get_out]--> State_3
+  State_3 --[keep]--> State_4
+
+FSM for object R_370_372, sort R_370_372_necklace_ARG1_part3:
+  State_0 --[find]--> State_1
+
+FSM for object R_373_377, sort R_373_377_CD_ARG0_all:
+  State_0 --[open]--> State_1
+
+FSM for object R_373_377, sort R_373_377_CD_ARG2-from_all:
+  State_0 --[steal]--> State_1
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG0_part1:
+  State_0 --[rescue]--> State_1
+  State_0 --[walk]--> State_3
+  State_1 --[go_to]--> State_2
+  State_1 --[rescue]--> State_1
+  State_2 --[rescue]--> State_1
+  State_2 --[walk]--> State_3
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG0_part2:
+  State_0 --[go]--> State_1
+  State_1 --[go]--> State_1
+  State_1 --[keep_to]--> State_2
+  State_2 --[decide]--> State_3
+  State_2 --[go]--> State_1
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG0_part3:
+  State_0 --[go_into]--> State_1
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG1_part1:
+  State_0 --[attack]--> State_1
+  State_0 --[become]--> State_7
+  State_0 --[choke]--> State_6
+  State_0 --[help_out]--> State_4
+  State_0 --[rescue]--> State_2
+  State_0 --[see]--> State_3
+  State_1 --[rescue]--> State_2
+  State_2 --[rescue]--> State_2
+  State_2 --[see]--> State_3
+  State_3 --[help_out]--> State_4
+  State_4 --[be]--> State_5
+  State_4 --[help_out]--> State_4
+  State_6 --[rescue]--> State_2
+  State_7 --[rescue]--> State_2
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG1_part2:
+  State_0 --[kill]--> State_1
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG1_part3:
+  State_0 --[lock_in]--> State_1
+  State_1 --[become]--> State_2
+  State_1 --[lock_in]--> State_1
+
+FSM for object R_465_466, sort R_465_466_Perry_ARG2_all:
+  State_0 --[ask]--> State_1
+
+FSM for object R_480_482, sort R_480_482_a wall_ARG1_all:
+  State_0 --[climb]--> State_1
+
+FSM for object R_480_482, sort R_480_482_a wall_ARG2-under_all:
+  State_0 --[trap]--> State_1
+
+FSM for object R_480_482, sort R_480_482_a wall_ARG2_all:
+  State_0 --[trap]--> State_1
+
+FSM for object R_524_527, sort R_524_527_NNP_ARG0_part1:
+  State_0 --[continue]--> State_1
+  State_0 --[leave_behind]--> State_2
+  State_1 --[leave_behind]--> State_2
+  State_2 --[escape]--> State_3
+
+FSM for object R_524_527, sort R_524_527_NNP_ARG0_part2:
+  State_0 --[see]--> State_1
+
+FSM for object R_524_527, sort R_524_527_NNP_ARG1_part1:
+  State_0 --[be]--> State_4
+  State_0 --[leave]--> State_2
+  State_0 --[return]--> State_5
+  State_0 --[trap]--> State_1
+  State_1 --[leave]--> State_2
+  State_2 --[attack]--> State_3
+  State_3 --[be]--> State_4
+  State_4 --[return]--> State_5
+
+FSM for object R_524_527, sort R_524_527_NNP_ARG1_part2:
+  State_0 --[trap]--> State_1
+
+FSM for object R_528_530, sort R_528_530_NN_ARG0_part1:
+  State_0 --[attack]--> State_2
+  State_0 --[trap]--> State_1
+  State_1 --[attack]--> State_2
+
+FSM for object R_528_530, sort R_528_530_NN_ARG0_part2:
+  State_0 --[trap]--> State_1
+
+FSM for object R_528_530, sort R_528_530_NN_ARG0_part3:
+  State_0 --[kill]--> State_1
+
+FSM for object R_528_530, sort R_528_530_NN_ARG1_all:
+  State_0 --[come]--> State_1
+
+FSM for object R_528_530, sort R_528_530_NN_ARG2_all:
+  State_0 --[become]--> State_1
+
+FSM for object R_617_625, sort R_617_625_the door that had locked them in before_ARG1_all:
+  State_0 --[lock]--> State_1
+
+FSM for object R_699_701, sort R_699_701_tunnel_ARG1-in_all:
+  State_0 --[crawl]--> State_1
+
+FSM for object R_699_701, sort R_699_701_tunnel_ARG1-through_all:
+  State_0 --[crawl]--> State_1
+
+FSM for object R_715_719, sort R_715_719_CD_ARG0-by_all:
+  State_0 --[drag]--> State_1
+
+FSM for object R_715_719, sort R_715_719_CD_ARG0_all:
+  State_0 --[choke]--> State_1
+
+FSM for object R_730_732, sort unknown_sort_ARG1_all:
+  State_0 --[head]--> State_1
+
+FSM for object R_921_925, sort R_921_925_the door she locked_ARG1_all:
+  State_0 --[open]--> State_1
+
+FSM for object R_940_943, sort R_940_943_jewelry_ARG1_all:
+  State_0 --[be]--> State_3
+  State_0 --[put_to]--> State_1
+  State_1 --[put_to]--> State_1
+  State_1 --[throw]--> State_2
+  State_3 --[put_to]--> State_1
+
+FSM for object R_940_943, sort R_940_943_jewelry_ARG2_all:
+  State_0 --[put_to]--> State_1
+  State_1 --[put_to]--> State_1
+
+FSM for object R_997_999, sort R_997_999_a ring_ARG1_part1:
+  State_0 --[be]--> State_1
+
+FSM for object R_997_999, sort R_997_999_a ring_ARG1_part2:
+  State_0 --[see]--> State_1
+
+FSM for object S_0_5_6, sort S_0_5_6_movie_ARG1_all:
+  State_0 --[start_off]--> State_1
+
+FSM for object S_11_11_24, sort S_11_11_24_about a " job of the century " that would get them easy money_ARG1_all:
+  State_0 --[tell]--> State_1
+
+FSM for object S_11_12_18, sort S_11_12_18_occupation_ARG0_all:
+  State_0 --[would_get]--> State_1
+
+FSM for object S_11_23_24, sort S_11_23_24_money_ARG1_all:
+  State_0 --[would_get]--> State_1
+
+FSM for object S_12_12_16, sort S_12_12_16_chamber_ARG2_all:
+  State_0 --[become]--> State_1
+
+FSM for object S_12_2_16, sort S_12_2_16_of underground vaults built during the Great Depression that became burial chambers for the wealthy_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object S_12_3_4, sort S_12_3_4_vault_ARG1_all:
+  State_0 --[build]--> State_1
+  State_1 --[build]--> State_1
+
+FSM for object S_13_11_12, sort S_13_11_12_treasure_ARG1_all:
+  State_0 --[hide]--> State_1
+  State_1 --[hide]--> State_1
+
+FSM for object S_13_14_18, sort S_13_14_18_RB_ARGM-LOC_all:
+  State_0 --[hide]--> State_1
+  State_1 --[hide]--> State_1
+
+FSM for object S_13_14_18, sort S_13_14_18_crypt_ARGM-LOC_all:
+  State_0 --[hide]--> State_1
+  State_1 --[hide]--> State_1
+
+FSM for object S_13_3_5, sort S_13_3_5_ring_ARG1_all:
+  State_0 --[show]--> State_1
+
+FSM for object S_13_9_18, sort S_13_9_18_there is more treasure hidden in the crypt down below_ARG1_all:
+  State_0 --[tell]--> State_1
+
+FSM for object S_14_12_12, sort S_14_12_12_point_ARGM-LOC_all:
+  State_0 --[mount]--> State_1
+
+FSM for object S_14_15_15, sort S_14_15_15_flashlight_ARG1_all:
+  State_0 --[mount]--> State_1
+
+FSM for object S_14_1_15, sort S_14_1_15_with backpacks , tools , two - way radios , and head - mounted flashlights_ARG2_all:
+  State_0 --[equip]--> State_1
+
+FSM for object S_14_20_26, sort S_14_20_26_end_ARG1_all:
+  State_0 --[break_into]--> State_1
+
+FSM for object S_15_3_7, sort S_15_3_7_NN_ARG1_all:
+  State_0 --[notice]--> State_1
+
+FSM for object S_15_3_7, sort S_15_3_7_crypt_ARG1_all:
+  State_0 --[notice]--> State_1
+
+FSM for object S_15_9_12, sort S_15_9_12_subject_ARG1_all:
+  State_0 --[take_out]--> State_1
+
+FSM for object S_16_15_18, sort S_16_15_18_figure_ARG1_all:
+  State_0 --[see_to]--> State_1
+  State_1 --[see_to]--> State_1
+
+FSM for object S_16_4_4, sort S_16_4_4_RB_ARG1_all:
+  State_0 --[travel]--> State_1
+  State_1 --[travel]--> State_1
+
+FSM for object S_17_5_6, sort S_17_5_6_grave_ARG1_all:
+  State_0 --[open]--> State_1
+
+FSM for object S_17_9_10, sort S_17_9_10_treasure_ARG1_all:
+  State_0 --[take]--> State_1
+
+FSM for object S_18_23_27, sort S_18_23_27_it " open its eyes_ARG1_all:
+  State_0 --[see]--> State_1
+  State_1 --[see]--> State_1
+
+FSM for object S_18_26_27, sort S_18_26_27_eye_ARG0_all:
+  State_0 --[open]--> State_1
+
+FSM for object S_18_26_27, sort S_18_26_27_eye_ARG1_all:
+  State_0 --[open]--> State_1
+
+FSM for object S_18_26_27, sort S_18_26_27_eye_ARG2-from_all:
+  State_0 --[steal]--> State_1
+
+FSM for object S_18_3_12, sort S_18_3_12_to steal off a necklace from one of the skeletons_ARG2_all:
+  State_0 --[lean]--> State_1
+
+FSM for object S_19_11_13, sort S_19_11_13_surfeit_ARG1_all:
+  State_0 --[marvel]--> State_1
+  State_1 --[marvel]--> State_1
+
+FSM for object S_19_3_6, sort S_19_3_6_box_ARG1_all:
+  State_0 --[find]--> State_1
+
+FSM for object S_1_13_14, sort S_1_13_14_valuable_ARG1_all:
+  State_0 --[search]--> State_1
+
+FSM for object S_20_11_12, sort S_20_11_12_brassiere_ARG0_part1:
+  State_0 --[admit]--> State_16
+  State_0 --[check_through]--> State_4
+  State_0 --[explain]--> State_2
+  State_0 --[find]--> State_17
+  State_0 --[get_out]--> State_21
+  State_0 --[give]--> State_19
+  State_0 --[head]--> State_15
+  State_0 --[hide]--> State_23
+  State_0 --[keep]--> State_22
+  State_0 --[see]--> State_10
+  State_0 --[see_to]--> State_7
+  State_0 --[split_off]--> State_13
+  State_0 --[tell]--> State_1
+  State_1 --[check_through]--> State_4
+  State_1 --[explain]--> State_2
+  State_2 --[find]--> State_17
+  State_2 --[show]--> State_3
+  State_3 --[tell]--> State_1
+  State_4 --[check_through]--> State_4
+  State_4 --[travel]--> State_5
+  State_5 --[begin]--> State_6
+  State_5 --[check_through]--> State_4
+  State_6 --[lean]--> State_8
+  State_6 --[see_to]--> State_7
+  State_7 --[begin]--> State_6
+  State_7 --[see_to]--> State_7
+  State_8 --[jump_in]--> State_9
+  State_9 --[see]--> State_10
+  State_10 --[claim]--> State_11
+  State_10 --[see]--> State_10
+  State_11 --[slip]--> State_12
+  State_13 --[locate]--> State_14
+  State_14 --[head]--> State_15
+  State_15 --[admit]--> State_16
+  State_16 --[explain]--> State_2
+  State_17 --[admit]--> State_16
+  State_17 --[bring]--> State_18
+  State_18 --[give]--> State_19
+  State_19 --[give]--> State_19
+  State_19 --[try]--> State_20
+  State_20 --[get_out]--> State_21
+  State_21 --[get_out]--> State_21
+  State_21 --[keep]--> State_22
+  State_23 --[find]--> State_17
+
+FSM for object S_20_11_12, sort S_20_11_12_brassiere_ARG0_part2:
+  State_0 --[steal]--> State_1
+
+FSM for object S_20_11_12, sort S_20_11_12_brassiere_ARG0_part3:
+  State_0 --[go]--> State_1
+  State_1 --[go]--> State_1
+  State_1 --[keep_to]--> State_2
+  State_2 --[decide]--> State_3
+  State_2 --[go]--> State_1
+
+FSM for object S_20_11_12, sort S_20_11_12_brassiere_ARG1_all:
+  State_0 --[be]--> State_2
+  State_0 --[kill]--> State_1
+  State_2 --[kill]--> State_1
+  State_2 --[not_attack]--> State_3
+  State_3 --[be]--> State_2
+
+FSM for object S_20_11_12, sort S_20_11_12_brassiere_ARG2-into_all:
+  State_0 --[slip]--> State_1
+
+FSM for object S_20_11_12, sort S_20_11_12_brassiere_ARG2_all:
+  State_0 --[tell]--> State_1
+
+FSM for object S_20_1_2, sort S_20_1_2_one_ARG0_all:
+  State_0 --[look]--> State_1
+
+FSM for object S_20_8_9, sort S_20_8_9_necklace_ARG1_all:
+  State_0 --[slip]--> State_1
+
+FSM for object S_21_12_15, sort S_21_12_15_they are caved in_ARG1_all:
+  State_0 --[realize]--> State_1
+
+FSM for object S_21_4_4, sort S_21_4_4_NN_ARG1_all:
+  State_0 --[sound]--> State_1
+  State_1 --[sound]--> State_1
+
+FSM for object S_21_7_9, sort S_21_7_9_earthquake_ARG2_all:
+  State_0 --[sound]--> State_1
+  State_1 --[sound]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG0_all:
+  State_0 --[break_into]--> State_6
+  State_0 --[crawl]--> State_17
+  State_0 --[dig_out]--> State_15
+  State_0 --[find_out]--> State_13
+  State_0 --[leave]--> State_19
+  State_0 --[marvel]--> State_10
+  State_0 --[meet]--> State_1
+  State_1 --[break_into]--> State_6
+  State_1 --[drive]--> State_2
+  State_1 --[go]--> State_3
+  State_1 --[leave]--> State_19
+  State_1 --[meet]--> State_1
+  State_2 --[cheer]--> State_4
+  State_2 --[meet]--> State_1
+  State_2 --[realize]--> State_5
+  State_4 --[drive]--> State_2
+  State_5 --[find_out]--> State_13
+  State_5 --[meet]--> State_1
+  State_6 --[open]--> State_7
+  State_7 --[take]--> State_8
+  State_8 --[find]--> State_9
+  State_9 --[marvel]--> State_10
+  State_10 --[begin]--> State_11
+  State_10 --[marvel]--> State_10
+  State_11 --[hear]--> State_12
+  State_12 --[realize]--> State_5
+  State_13 --[find_out]--> State_13
+  State_13 --[try]--> State_14
+  State_14 --[dig_out]--> State_15
+  State_15 --[decide]--> State_16
+  State_15 --[dig_out]--> State_15
+  State_16 --[decide]--> State_16
+  State_16 --[follow]--> State_18
+  State_17 --[crawl]--> State_17
+  State_17 --[decide]--> State_16
+  State_18 --[meet]--> State_1
+  State_19 --[decide]--> State_16
+  State_19 --[leave]--> State_19
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG1_part1:
+  State_0 --[dig_out]--> State_1
+  State_1 --[dig_out]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG1_part2:
+  State_0 --[equip]--> State_3
+  State_0 --[meet]--> State_1
+  State_0 --[turn_back]--> State_4
+  State_1 --[be]--> State_2
+  State_1 --[equip]--> State_3
+  State_1 --[meet]--> State_1
+  State_2 --[meet]--> State_1
+  State_3 --[turn_back]--> State_4
+  State_4 --[turn_back]--> State_4
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG1_part3:
+  State_0 --[cave_in]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG1_part4:
+  State_0 --[find]--> State_2
+  State_0 --[shock]--> State_1
+  State_1 --[find]--> State_2
+  State_2 --[find]--> State_2
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG1_part5:
+  State_0 --[lock]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG1_part6:
+  State_0 --[split_off]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG2_part1:
+  State_0 --[show]--> State_2
+  State_0 --[tell]--> State_1
+  State_1 --[show]--> State_2
+  State_2 --[tell]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG2_part2:
+  State_0 --[be]--> State_1
+
+FSM for object S_22_12_13, sort S_22_12_13_way_ARG4_all:
+  State_0 --[would_get]--> State_1
+
+FSM for object S_22_4_6, sort S_22_4_6_RP_ARG1_all:
+  State_0 --[find_out]--> State_1
+  State_1 --[find_out]--> State_1
+
+FSM for object S_22_4_6, sort S_22_4_6_way_ARG1_all:
+  State_0 --[find_out]--> State_1
+  State_1 --[find_out]--> State_1
+
+FSM for object S_23_8_13, sort S_23_8_13_NNP_ARG0_all:
+  State_0 --[go]--> State_1
+  State_1 --[go]--> State_1
+  State_1 --[keep_to]--> State_2
+  State_2 --[decide]--> State_3
+  State_2 --[go]--> State_1
+
+FSM for object S_25_16_17, sort S_25_16_17_skull_ARG0_part1:
+  State_0 --[climb]--> State_1
+  State_1 --[climb]--> State_1
+  State_1 --[decide]--> State_2
+
+FSM for object S_25_16_17, sort S_25_16_17_skull_ARG0_part2:
+  State_0 --[shock]--> State_1
+
+FSM for object S_25_16_17, sort S_25_16_17_skull_ARG1_part1:
+  State_0 --[crush]--> State_1
+
+FSM for object S_25_16_17, sort S_25_16_17_skull_ARG1_part2:
+  State_0 --[kill]--> State_1
+
+FSM for object S_25_16_17, sort S_25_16_17_skull_ARG1_part3:
+  State_0 --[find]--> State_1
+
+FSM for object S_25_16_17, sort S_25_16_17_skull_ARG4-on_all:
+  State_0 --[fall_on]--> State_1
+
+FSM for object S_25_8_10, sort S_25_8_10_wall_ARG0_part1:
+  State_0 --[crush]--> State_1
+
+FSM for object S_25_8_10, sort S_25_8_10_wall_ARG0_part2:
+  State_0 --[kill]--> State_1
+
+FSM for object S_25_8_10, sort S_25_8_10_wall_ARG1_all:
+  State_0 --[fall_on]--> State_1
+
+FSM for object S_26_1_4, sort S_26_1_4_death_ARG0_all:
+  State_0 --[shock]--> State_1
+
+FSM for object S_27_11_12, sort S_27_11_12_opening_ARG1_all:
+  State_0 --[reach]--> State_1
+  State_1 --[reach]--> State_1
+
+FSM for object S_27_13_18, sort S_27_13_18_in order to get back out_ARGM-PRP_all:
+  State_0 --[reach]--> State_1
+  State_1 --[reach]--> State_1
+
+FSM for object S_27_17_18, sort S_27_17_18_RB_ARG2_all:
+  State_0 --[get_to]--> State_1
+
+FSM for object S_27_22_25, sort S_27_22_25_slope_ARG4_all:
+  State_0 --[fall_on]--> State_1
+
+FSM for object S_27_28_28, sort S_27_28_28_RB_ARG2_all:
+  State_0 --[leave]--> State_1
+
+FSM for object S_28_10_12, sort S_28_10_12_vault_ARG4_all:
+  State_0 --[go_into]--> State_1
+
+FSM for object S_28_3_17, sort S_28_3_17_perry_ARG1_all:
+  State_0 --[split_off]--> State_1
+
+FSM for object S_28_4_6, sort S_28_4_6_perry_ARG0_all:
+  State_0 --[go_into]--> State_1
+
+FSM for object S_28_4_6, sort S_28_4_6_perry_ARG1_all:
+  State_0 --[lock_in]--> State_1
+  State_1 --[become]--> State_2
+  State_1 --[lock_in]--> State_1
+
+FSM for object S_29_2_3, sort S_29_2_3_tunnel_ARG0_all:
+  State_0 --[lead]--> State_1
+  State_1 --[lead]--> State_1
+
+FSM for object S_29_6_8, sort S_29_6_8_room_ARG4_all:
+  State_0 --[lead]--> State_1
+  State_1 --[lead]--> State_1
+
+FSM for object S_2_10_10, sort S_2_10_10_finger_ARG0_all:
+  State_0 --[decay]--> State_1
+
+FSM for object S_2_5_6, sort S_2_5_6_ring_ARG1_all:
+  State_0 --[remove]--> State_1
+  State_1 --[steal]--> State_2
+
+FSM for object S_2_7_16, sort S_2_7_16_grave_ARG2_all:
+  State_0 --[remove]--> State_1
+  State_1 --[steal]--> State_2
+
+FSM for object S_30_0_0, sort S_30_0_0_RB_ARGM-LOC_all:
+  State_0 --[attack]--> State_1
+
+FSM for object S_30_5_9, sort S_30_5_9_CD_ARG0_all:
+  State_0 --[attack]--> State_1
+
+FSM for object S_31_11_12, sort S_31_11_12_door_ARG0_all:
+  State_0 --[lock]--> State_1
+
+FSM for object S_33_10_22, sort S_33_10_22_trap_ARG1_all:
+  State_0 --[find]--> State_1
+
+FSM for object S_33_15_22, sort S_33_15_22_side_ARG2_all:
+  State_0 --[trap]--> State_1
+
+FSM for object S_33_31_33, sort S_33_31_33_dorian_ARG0_all:
+  State_0 --[break]--> State_1
+  State_1 --[break]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG0_part1:
+  State_0 --[leave]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG0_part2:
+  State_0 --[reach]--> State_1
+  State_1 --[climb]--> State_2
+  State_1 --[reach]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG1_part1:
+  State_0 --[break]--> State_1
+  State_1 --[break]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG1_part2:
+  State_0 --[choke]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG1_part3:
+  State_0 --[fall_on]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG1_part4:
+  State_0 --[kill]--> State_1
+
+FSM for object S_33_36_37, sort S_33_36_37_ankle_ARG1_part5:
+  State_0 --[make]--> State_1
+
+FSM for object S_33_7_22, sort S_33_7_22_only to find Morgan dead and Adriana trapped on the other side of the unstable wall_ARGM-PRP_all:
+  State_0 --[go]--> State_1
+
+FSM for object S_35_11_11, sort S_35_11_11_RB_ARG2_all:
+  State_0 --[drag]--> State_1
+
+FSM for object S_36_0_2, sort S_36_0_2_personnel_casualty_ARG0_all:
+  State_0 --[make]--> State_1
+
+FSM for object S_36_4_5, sort S_36_4_5_depress_ARG1_all:
+  State_0 --[make]--> State_1
+
+FSM for object S_37_2_12, sort S_37_2_12_road_ARG1_all:
+  State_0 --[head]--> State_1
+
+FSM for object S_37_7_8, sort S_37_7_8_exit_ARG0_all:
+  State_0 --[leave]--> State_1
+
+FSM for object S_38_10_18, sort S_38_10_18_trope_ARG0_all:
+  State_0 --[choke]--> State_1
+
+FSM for object S_38_11_14, sort S_38_11_14_trope_ARG0_all:
+  State_0 --[choke]--> State_1
+
+FSM for object S_3_11_14, sort S_3_11_14_cover_ARG1_all:
+  State_0 --[close]--> State_1
+  State_1 --[close]--> State_1
+  State_1 --[slam]--> State_2
+
+FSM for object S_3_19_22, sort S_3_19_22_CD_ARG1_all:
+  State_0 --[cut_off]--> State_1
+
+FSM for object S_3_7_9, sort S_3_7_9_violence_ARG0_all:
+  State_0 --[slam]--> State_1
+  State_1 --[cut_off]--> State_2
+
+FSM for object S_40_4_12, sort S_40_4_12_that she had been down in the crypts before_ARG1_all:
+  State_0 --[admit]--> State_1
+
+FSM for object S_40_8_11, sort S_40_8_11_crypt_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object S_41_11_15, sort S_41_11_15_trope_ARG0_all:
+  State_0 --[not_attack]--> State_1
+  State_1 --[watch]--> State_2
+
+FSM for object S_41_2_23, sort S_41_2_23_that she was unable to find any jewelry and the ghost - like figures had never attacked her before ; only watched_ARG1_all:
+  State_0 --[explain]--> State_1
+
+FSM for object S_41_5_9, sort S_41_5_9_unable to find any jewelry_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object S_41_8_9, sort S_41_8_9_jewelry_ARG1_all:
+  State_0 --[find]--> State_1
+
+FSM for object S_42_2_2, sort S_42_2_2_IN_ARG2_all:
+  State_0 --[leave_behind]--> State_1
+
+FSM for object S_42_3_6, sort S_42_3_6_backpack_ARG1_all:
+  State_0 --[leave_behind]--> State_1
+
+FSM for object S_42_9_16, sort S_42_9_16_able to escape through the other exit unscathed_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object S_43_3_4, sort S_43_3_4_home_plate_ARG0_part1:
+  State_0 --[continue]--> State_1
+  State_0 --[leave_behind]--> State_2
+  State_1 --[leave_behind]--> State_2
+  State_2 --[escape]--> State_3
+
+FSM for object S_43_3_4, sort S_43_3_4_home_plate_ARG0_part2:
+  State_0 --[see]--> State_1
+
+FSM for object S_43_3_4, sort S_43_3_4_home_plate_ARG1_part1:
+  State_0 --[be]--> State_4
+  State_0 --[leave]--> State_2
+  State_0 --[return]--> State_5
+  State_0 --[trap]--> State_1
+  State_1 --[leave]--> State_2
+  State_2 --[attack]--> State_3
+  State_3 --[be]--> State_4
+  State_4 --[return]--> State_5
+
+FSM for object S_43_3_4, sort S_43_3_4_home_plate_ARG1_part2:
+  State_0 --[trap]--> State_1
+
+FSM for object S_43_3_4, sort S_43_3_4_home_plate_ARG4-to_all:
+  State_0 --[return]--> State_1
+
+FSM for object S_44_2_10, sort S_44_2_10_necklace_ARG1_all:
+  State_0 --[find]--> State_1
+
+FSM for object S_44_2_3, sort S_44_2_3_necklace_ARG1_all:
+  State_0 --[hide]--> State_1
+
+FSM for object S_44_9_10, sort S_44_9_10_brassiere_ARG0_part1:
+  State_0 --[admit]--> State_16
+  State_0 --[check_through]--> State_4
+  State_0 --[explain]--> State_2
+  State_0 --[find]--> State_17
+  State_0 --[get_out]--> State_21
+  State_0 --[give]--> State_19
+  State_0 --[head]--> State_15
+  State_0 --[hide]--> State_23
+  State_0 --[keep]--> State_22
+  State_0 --[see]--> State_10
+  State_0 --[see_to]--> State_7
+  State_0 --[split_off]--> State_13
+  State_0 --[tell]--> State_1
+  State_1 --[check_through]--> State_4
+  State_1 --[explain]--> State_2
+  State_2 --[find]--> State_17
+  State_2 --[show]--> State_3
+  State_3 --[tell]--> State_1
+  State_4 --[check_through]--> State_4
+  State_4 --[travel]--> State_5
+  State_5 --[begin]--> State_6
+  State_5 --[check_through]--> State_4
+  State_6 --[lean]--> State_8
+  State_6 --[see_to]--> State_7
+  State_7 --[begin]--> State_6
+  State_7 --[see_to]--> State_7
+  State_8 --[jump_in]--> State_9
+  State_9 --[see]--> State_10
+  State_10 --[claim]--> State_11
+  State_10 --[see]--> State_10
+  State_11 --[slip]--> State_12
+  State_13 --[locate]--> State_14
+  State_14 --[head]--> State_15
+  State_15 --[admit]--> State_16
+  State_16 --[explain]--> State_2
+  State_17 --[admit]--> State_16
+  State_17 --[bring]--> State_18
+  State_18 --[give]--> State_19
+  State_19 --[give]--> State_19
+  State_19 --[try]--> State_20
+  State_20 --[get_out]--> State_21
+  State_21 --[get_out]--> State_21
+  State_21 --[keep]--> State_22
+  State_23 --[find]--> State_17
+
+FSM for object S_44_9_10, sort S_44_9_10_brassiere_ARG0_part2:
+  State_0 --[steal]--> State_1
+
+FSM for object S_44_9_10, sort S_44_9_10_brassiere_ARG0_part3:
+  State_0 --[go]--> State_1
+  State_1 --[go]--> State_1
+  State_1 --[keep_to]--> State_2
+  State_2 --[decide]--> State_3
+  State_2 --[go]--> State_1
+
+FSM for object S_44_9_10, sort S_44_9_10_brassiere_ARG1_all:
+  State_0 --[be]--> State_2
+  State_0 --[kill]--> State_1
+  State_2 --[kill]--> State_1
+  State_2 --[not_attack]--> State_3
+  State_3 --[be]--> State_2
+
+FSM for object S_44_9_10, sort S_44_9_10_brassiere_ARG2_all:
+  State_0 --[tell]--> State_1
+
+FSM for object S_44_9_10, sort S_44_9_10_brassiere_ARGM-LOC-in_all:
+  State_0 --[hide]--> State_1
+
+FSM for object S_45_3_3, sort S_45_3_3_IN_ARG3_all:
+  State_0 --[bring]--> State_1
+
+FSM for object S_46_4_4, sort S_46_4_4_ferocious_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object S_47_10_16, sort S_47_10_16_by the same figure that killed Dorian_ARG0_all:
+  State_0 --[kill]--> State_1
+
+FSM for object S_47_11_13, sort S_47_11_13_trope_ARG0_all:
+  State_0 --[kill]--> State_1
+
+FSM for object S_48_16_19, sort S_48_16_19_RB_ARG4_all:
+  State_0 --[go_to]--> State_1
+  State_1 --[go_to]--> State_1
+
+FSM for object S_48_2_22, sort S_48_2_22_a nightmare that Perry had become one of the undead and decides to go back down the crypts to rescue him_ARG1_all:
+  State_0 --[have]--> State_1
+
+FSM for object S_48_8_11, sort S_48_8_11_CD_ARG2_all:
+  State_0 --[become]--> State_1
+
+FSM for object S_49_2_5, sort S_49_2_5_RB_ARG1_all:
+  State_0 --[travel]--> State_1
+
+FSM for object S_49_2_5, sort S_49_2_5_crypt_ARG1_all:
+  State_0 --[travel]--> State_1
+
+FSM for object S_49_9_10, sort S_49_9_10_door_ARG1_all:
+  State_0 --[lock]--> State_1
+  State_1 --[lock]--> State_1
+
+FSM for object S_4_7_11, sort S_4_7_11_passing_ARG1_all:
+  State_0 --[close_off]--> State_1
+
+FSM for object S_51_14_22, sort S_51_14_22_if it was all the jewelry they had stolen_ARG1_all:
+  State_0 --[ask]--> State_1
+
+FSM for object S_51_17_19, sort S_51_17_19_jewelry_ARG1_all:
+  State_0 --[steal]--> State_1
+  State_1 --[steal]--> State_1
+
+FSM for object S_51_20_20, sort S_51_20_20_PRP_ARG0_all:
+  State_0 --[steal]--> State_1
+  State_1 --[steal]--> State_1
+
+FSM for object S_51_7_10, sort S_51_7_10_RB_ARG2_all:
+  State_0 --[put_to]--> State_1
+  State_1 --[put_to]--> State_1
+
+FSM for object S_52_5_8, sort S_52_5_8_RB_ARG2_all:
+  State_0 --[throw]--> State_1
+
+FSM for object S_53_10_13, sort S_53_10_13_too weak to walk_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object S_54_12_16, sort S_54_12_16_finger_ARG1_all:
+  State_0 --[see]--> State_1
+
+FSM for object S_56_13_17, sort S_56_13_17_eye_ARGM-LOC_all:
+  State_0 --[come]--> State_1
+  State_1 --[kill]--> State_2
+
+FSM for object S_56_4_4, sort S_56_4_4_NN_ARG1_all:
+  State_0 --[could_say]--> State_1
+
+FSM for object S_5_0_0, sort S_5_0_0_PRP_ARG1_all:
+  State_0 --[switch]--> State_1
+
+FSM for object S_5_18_19, sort S_5_18_19_prison_ARG2_all:
+  State_0 --[release]--> State_1
+
+FSM for object S_5_3_19, sort S_5_3_19_to present day , where a man with the name of Perry is being released from prison_ARG2_all:
+  State_0 --[switch]--> State_1
+
+FSM for object S_6_8_11, sort S_6_8_11_RB_ARGM-LOC_all:
+  State_0 --[wait_for]--> State_1
+
+FSM for object S_6_8_11, sort S_6_8_11_car_ARGM-LOC_all:
+  State_0 --[wait_for]--> State_1
+
+FSM for object S_7_12_16, sort S_7_12_16_way_ARG2_all:
+  State_0 --[be]--> State_1
+
+FSM for object S_8_11_11, sort S_8_11_11_car_ARG1_all:
+  State_0 --[steal]--> State_1
+
+FSM for object S_9_11_21, sort S_9_11_21_that Adriana 's brother was shot in the head and killed_ARG1_all:
+  State_0 --[realize]--> State_1
+
+FSM for object S_9_12_14, sort S_9_12_14_buddy_ARG1_part1:
+  State_0 --[shoot]--> State_1
+
+FSM for object S_9_12_14, sort S_9_12_14_buddy_ARG1_part2:
+  State_0 --[kill]--> State_1
+
+FSM for object S_9_17_19, sort S_9_17_19_head_ARG3_all:
+  State_0 --[shoot]--> State_1
+
+FSM for object S_9_5_5, sort S_9_5_5_RB_ARG2_all:
+  State_0 --[drive]--> State_1
+
+

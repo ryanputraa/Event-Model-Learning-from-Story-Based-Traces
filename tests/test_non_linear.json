@@ -1,0 +1,26 @@
+[
+    {
+        "objects": {
+            "obj1": ["Object 1", []]
+        },
+        "facts": [],
+        "events": {
+            "1": [true, ["start", ["ARG0", "obj1"]]],
+            "2": [true, ["process", ["ARG0", "obj1"]]],
+            "3": [true, ["end", ["ARG0", "obj1"]]],
+            "4": [true, ["start", ["ARG0", "obj1"]]],
+            "5": [true, ["error", ["ARG0", "obj1"]]],
+            "6": [true, ["recover", ["ARG0", "obj1"]]],
+            "7": [true, ["process", ["ARG0", "obj1"]]],
+            "8": [true, ["end", ["ARG0", "obj1"]]],
+            "9": [true, ["start", ["ARG0", "obj1"]]],
+            "10": [true, ["skip", ["ARG0", "obj1"]]],
+            "11": [true, ["end", ["ARG0", "obj1"]]]
+        },
+        "prec": [
+            [1, 2], [2, 3],
+            [4, 5], [5, 6], [6, 7], [7, 8],
+            [9, 10], [10, 11]
+        ]
+    }
+]

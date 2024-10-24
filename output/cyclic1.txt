@@ -1,0 +1,9 @@
+--- Plan 1 ---
+FSM for object obj1, sort obj1_Object 1 Text_ARG0_all:
+  State_0 --[start]--> State_1
+  State_1 --[loop]--> State_2
+  State_2 --[end]--> State_3
+  State_3 --[restart]--> State_4
+  State_4 --[loop]--> State_2
+
+

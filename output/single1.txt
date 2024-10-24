@@ -1,0 +1,5 @@
+--- Plan 1 ---
+FSM for object obj1, sort obj1_Object 1 Text_ARG0_all:
+  State_0 --[only_action]--> State_1
+
+

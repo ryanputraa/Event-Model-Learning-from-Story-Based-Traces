@@ -1,0 +1,11 @@
+[{
+    "objects": {
+      "obj1": ["Object 1 Text", []]
+    },
+    "facts": [],
+    "events": {
+      "1": [true, ["only_action", ["ARG0", "obj1"]]]
+    },
+    "prec": []
+  }]
+  

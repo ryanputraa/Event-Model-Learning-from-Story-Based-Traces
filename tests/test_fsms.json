@@ -1,0 +1,21 @@
+[
+    {
+        "objects": {
+            "obj1": ["Object 1", []],
+            "obj2": ["Object 2", []]
+        },
+        "facts": [],
+        "events": {
+            "1": [true, ["action_a", ["ARG0", "obj1"]]],
+            "2": [true, ["action_b", ["ARG0", "obj1"]]],
+            "3": [true, ["action_c", ["ARG0", "obj1"]]],
+            "4": [true, ["action_a", ["ARG0", "obj1"]]],
+            "5": [true, ["action_d", ["ARG0", "obj1"]]],
+            "6": [true, ["action_c", ["ARG0", "obj1"]]]
+        },
+        "prec": [
+            [1, 2], [2, 3],
+            [4, 5], [5, 6]
+        ]
+    }
+]

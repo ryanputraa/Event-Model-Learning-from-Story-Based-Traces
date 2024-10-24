@@ -1,0 +1,12 @@
+--- Plan 1 ---
+FSM for object obj1, sort obj1_Object 1_ARG0_all:
+  State_0 --[start]--> State_1
+  State_1 --[error]--> State_4
+  State_1 --[process]--> State_2
+  State_1 --[skip]--> State_6
+  State_2 --[end]--> State_3
+  State_4 --[recover]--> State_5
+  State_5 --[process]--> State_2
+  State_6 --[end]--> State_3
+
+
